@@ -1,8 +1,9 @@
+# NOTE: for versions >= 0.4.0 (for Python 3.5+) see python3-pytest-freezegun.spec
 #
 # Conditional build:
 %bcond_with	tests	# unit tests (not included in sdist)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-pytest-freezegun.spec)
 
 Summary:	Wrap tests with fixtures in freeze_time
 Summary(pl.UTF-8):	Obudowywanie testów z wyposażeniem w zamrożonym czasie
