@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Obudowywanie testów z wyposażeniem w zamrożonym czasie
 Name:		python-pytest-freezegun
 # keep 0.3.x here for python2 support
 Version:	0.3.0.post1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pytest-freezegun/
